@@ -1,0 +1,563 @@
+.toptop
+{ 
+	border-width:2px;
+	--border-style:solid;
+	border-color:white;
+	 --background-color:#0000FF;
+	 position:relative;
+	 border-radius:10px;
+}
+ 
+.topnav {
+	font-family:'Actor';
+	font-size:22px;
+    background:transparent;
+    overflow: hidden;
+	border-radius:10px;
+	
+	
+	
+}
+
+.topnav a 
+{
+    float: left;
+   color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	background:transparent;
+
+}
+ 
+.topnav a:hover
+ {
+    background-color: #708090;
+    border-color:blue;
+	border-radius:29px;	 
+	
+}
+
+ 
+.topnav a.active {
+    background-color: #4CAF50;
+    background:transparent;
+    color: black;
+	
+}
+.topnav a.active:hover {
+   background-color: #4CAF50;
+     border-color:white;
+	
+}
+.topnav
+{
+	border-radius:10px;
+}
+
+.bottomButton :hover 
+{
+    background-color: #708090;
+    border-color:blue;
+	border-radius:10px;
+	border-color:blue;
+	  
+}
+
+.bottomButton
+{  
+    
+	width:100px;
+	height:50%;
+	border-radius:10px;
+	background:transparent;
+	font-size:19px;
+	font-weight:bold;
+	 
+}
+
+.btnViewServ
+{ 
+	background-color:#0000FF;
+	border-radius:10px;
+	background:transparent; 
+}
+
+.body
+
+{    
+font-family:'Actor';font-size:22px;
+	 background-color:#0000FF;
+	 background-image: url('../public/images/bg8.jpg');
+/* background-repeat:no-repeat;
+	 --background-size: 100% 100%;*/
+	 height:auto;
+	
+}
+.active{
+	border-width:2px;
+	border-style:solid;
+	border-color:white;
+	border-radius:29px;
+}
+
+
+
+.logo
+
+{
+	 
+	width:550px;
+	height:90px;
+	
+	--margin:10px auto 20px;
+	--display:block;
+}
+.logoHolder
+{
+  width:100%;	
+}
+
+.logoHolder.img
+{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	 
+}
+.content
+{   padding:14px;
+	width:750px;
+	height:400px;
+	 
+ 
+	border-color:black;
+	 border-style:solid;
+	border-radius:10px;
+}
+
+.content2
+{   padding:14px;
+	width:750px;
+	height:400px;
+	 
+ 
+	border-color:transparent;
+	 border-style:solid;
+	border-radius:10px;
+}
+.content3
+{
+     padding:14px;
+	width:950px;
+	height:auto;
+	 
+ 
+	border-color:black;
+	 border-style:solid;
+	border-radius:10px;
+}
+.Insertcontent
+{
+	-- padding:14px;
+	 width:750px;
+	 height:900px;
+	 
+}
+.contentPic
+{
+	width:750px;
+	height:400px;
+	
+}
+
+.between
+{
+	height:90px;
+	border-width:2px;
+	border-style:solid;
+	height:20px;
+	background:transparent;
+}
+
+.buttone
+{
+	border-radius:29px;
+	  
+   color: black;
+    text-align: center;
+   -- padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	background:transparent;
+	width:100%;
+	
+	float: right;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 0 0px;
+	
+}
+
+.buttone:hover 
+{  background-color: #4CAF50;
+    border-color:blue;
+	border-radius:10px;
+	border-color:blue;
+	border-radius:29px;
+	  
+}
+ 
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	
+	
+}
+
+.button {
+    background:transparent; 
+    color: white;
+    border: 2px solid;
+	border-radius:29px;
+	border-color:white;
+	
+	
+}
+
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+	border-radius:29px;
+	border-color:white;
+}
+
+ .navParent
+ {
+	 height:120px;
+	 width:900px;%;
+	-- position:fixed;
+ } 
+ 
+.teamPic
+{
+	
+	width:170px;
+	height:160px;
+}
+
+  
+  
+  * {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  border-radius:29px;
+  --background-color: #87CEFA;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #40E0D0;
+	border-radius:29px;
+	
+}
+
+.containers {
+  padding: 0 16px;
+  background-color: #87CEFA;
+  border-radius:29px;
+}
+
+.containers::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button2 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button2:hover {
+  background-color: #555;
+}
+
+ 
+
+ 
+
+
+
+.Insertcontent
+{
+	height:100%;
+		border-style:solid;
+	border-color:white;
+ 
+ 
+}
+
+
+
+ .insertForm
+ {
+  background:transparent;	 
+  border-style:solid;	
+  border-radius:29px;
+	 
+ }
+
+
+
+.signUpSite
+{
+	
+	height:auto;
+	width:230px;
+	background:transparent;
+	border-style:solid;
+	border-color:#f0fff0;
+	border-radius:10px;
+	position:absolute;
+}
+ 
+.inputB
+{
+	border-radius:9px;
+	 
+	margin:10px auto 10px;
+	display:block;
+	
+	
+}
+ 
+.btnSub:hover
+{
+	
+	background-color: #4CAF50;
+    border-color:white;
+	 border-radius:9px;
+}
+ 
+ .btnSub 
+ {
+	 
+	border-color:white;
+	border-style:solid;
+	 background:transparent;
+	  border-radius:9px;
+	  width:210px;
+	margin:10px auto 20px;
+	display:block;
+ }
+.facebookPic
+{
+	 padding:14px;
+	 position:relative;
+	
+	 float:right;
+}
+
+
+.number
+{ 
+      float:right;
+	  position:relative;
+	 -- padding:0px;	
+}
+.haha
+{  
+	 float:right;
+	 height:62px;
+	 width:400px;
+	--border-style:solid;
+	border-color:white;
+	border-radius:29px;
+	padding:14px;
+ 
+}
+ 
+.footerBar
+{
+	--background:transparent;
+	width:100%;
+	height:auto;
+	border-style:solid;
+	border-color:blue;
+	 
+	
+}
+.fb
+{
+	height:20px;
+	width:20px;
+}
+.watsappPic
+{
+	
+}
+
+  
+  
+  .FAITH_edditing{ }
+  
+  
+.insertBody
+{ 
+     background-color:#FFDAB9;
+	 border-style:solid;
+	 border-color:blue;
+	 height:100%;
+	 width:100%;
+}
+
+.insertDIV
+{
+	border-style:solid;
+	border-color:blue;
+	height:auto;
+	width:400px;
+	  
+}
+
+ 
+ 
+.aboutUs
+
+{
+	border-style:solid;
+	border-color:black;
+	height:200px;
+	width:100%;
+	 
+	
+}
+
+.loginMenu
+{
+	border-radius:19px;	
+	border-style:solid;
+	border-color:black;
+}
+ .loginText
+ {
+	border-radius:29px; 
+ }
+
+ .insertServiceDv
+ {
+	border-radius:19px;	
+	border-style:solid;
+	border-color:black; 
+	width:400px;
+ }
+
+.bottomButton
+{
+	height:20px;
+}
+
+.SignuUpcontent
+ {
+	border-radius:19px;	
+	border-style:solid;
+	border-color:black; 
+	width:400px;
+	
+ }
+
+.foot
+{
+		border-radius:19px;	
+	border-style:solid;
+	border-color:black;
+	height:70px;
+	width:100%;
+}
+
+.aboutDIv
+{
+ 
+	 width:1000px;
+}
+	.h4
+	{
+border-radius:19px;	
+	border-style:solid;
+	border-color:black; 
+ 
+
+	}
+	
+	.adminPic
+	{
+		width:100%;
+		height:100%;
+	}
+	.contents
+        
+        {
+            padding:14px;
+	width:1300px;
+	height:auto;
+	 
+ 
+	border-color:black;
+	 border-style:solid;
+	border-radius:10px;
+            
+        }
+		  
+		  .navParent2
+ {
+	 height:120px;
+	 width:1600px;
+	-- position:fixed;
+ } 
+ 
+		  
+		  
+		  
+ 
+ 
+ 
